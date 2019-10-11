@@ -26,7 +26,7 @@ class Song
       artist = file_name.split(" - ")[0]
       songs = self.new(file_name)
       # binding.pry
-      songs.artist_name= artist
+      songs.artist_name= 
       songs
   end
   
