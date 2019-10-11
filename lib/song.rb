@@ -26,7 +26,6 @@ class Song
       artist = file_name.split(" -  ")[0]
       songs = self.new(file_name)
       songs.artist = artist
-      artist.songs << self
       songs
   end 
   
