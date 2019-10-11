@@ -22,11 +22,6 @@ class Song
    
    
   def self.new_by_filename(file_name)
-    artist_name = file.split(" - ")[0]
-    song_name = file.split(" - ")[1]
-    song = Song.new(song_name)
-    song.artist_name = artist_name
-    song
       # songs = Song.new(file_name)
       # songs = file_name.split(" - ")[1]
       # artist = file_name.split(" -  ")[0]
